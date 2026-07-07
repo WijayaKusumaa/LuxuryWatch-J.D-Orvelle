@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/LuxuryWatch-Wijaya/', // Diperbarui sesuai repository GitHub Anda
+  base: '/luxuryWatch-J.D-Orvelle/', // Diperbarui untuk repositori baru Anda
 })
