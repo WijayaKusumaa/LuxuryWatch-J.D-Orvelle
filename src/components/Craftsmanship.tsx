@@ -64,7 +64,7 @@ export default function Craftsmanship() {
         {/* Background Image */}
         <img 
           ref={bgRef}
-          src="/images/craftsmanship.png" 
+          src={`${import.meta.env.BASE_URL}images/craftsmanship.png`} 
           alt="Watch movement macro"
           className="absolute inset-0 w-full h-[120%] object-cover opacity-40 top-[-10%]"
         />

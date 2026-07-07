@@ -8,41 +8,41 @@ gsap.registerPlugin(ScrollTrigger);
 const collections = [
   {
     id: '01',
-    name: 'ROYAL OCEAN',
+    name: 'Royal Ocean',
     headline: 'Precision Beyond The Horizon',
     desc: 'Forged in the depths, designed for the surface. The Royal Ocean is the ultimate companion for those who command the seas.',
     specs: { mov: 'Calibre 400', res: '70 Hours', case: 'Titanium', water: '300m' },
-    image: '/images/watch_blue.png',
-    bgClass: 'bg-aura-dark',
-    accentClass: 'text-aura-light'
+    image: `${import.meta.env.BASE_URL}images/watch_blue.png`,
+    bgClass: 'bg-slate-950',
+    accentClass: 'text-blue-400'
   },
   {
     id: '02',
-    name: 'SAHARA HERITAGE',
-    headline: 'Timeless As The Desert Winds',
-    desc: 'Warmth, luxury, and unyielding endurance. A masterpiece draped in gold, reflecting the endless sands of time.',
-    specs: { mov: 'Calibre 512', res: '80 Hours', case: '18k Rose Gold', water: '100m' },
-    image: '/images/watch_desert.png',
-    bgClass: 'bg-elixir-dark',
-    accentClass: 'text-elixir-light'
+    name: 'Sahara Heritage',
+    headline: 'The Spirit of Exploration',
+    desc: 'Inspired by the vast golden sands. Sahara Heritage is built to withstand extreme environments with absolute legibility.',
+    specs: { mov: 'Calibre 702', res: '80 Hours', case: 'Bronze', water: '150m' },
+    image: `${import.meta.env.BASE_URL}images/watch_desert.png`,
+    bgClass: 'bg-zinc-950',
+    accentClass: 'text-amber-600'
   },
   {
     id: '03',
-    name: 'ROSE ELEGANCE',
-    headline: 'Luxury Worn Like Jewelry',
-    desc: 'Delicate yet robust. The Rose Elegance bridges the gap between haute horlogerie and high fashion.',
-    specs: { mov: 'Calibre 300', res: '48 Hours', case: 'Platinum', water: '50m' },
-    image: '/images/watch_rose.png',
-    bgClass: 'bg-rose-dark',
-    accentClass: 'text-rose-light'
+    name: 'Rose Elegance',
+    headline: 'A Symphony of Rose Gold',
+    desc: 'Where high fashion meets master mechanics. The Rose Elegance showcases delicate finishing and a solid 18k gold case.',
+    specs: { mov: 'Calibre 120', res: '48 Hours', case: '18k Rose Gold', water: '50m' },
+    image: `${import.meta.env.BASE_URL}images/watch_rose.png`,
+    bgClass: 'bg-neutral-950',
+    accentClass: 'text-rose-400'
   },
   {
     id: '04',
-    name: 'NOIR CRIMSON',
-    headline: 'Built For Passion And Power',
+    name: 'Noir Crimson',
+    headline: 'Built for Passion and Power',
     desc: 'Bold, provocative, and immensely powerful. The Noir Crimson leaves an unforgettable impression.',
     specs: { mov: 'Calibre 900', res: '120 Hours', case: 'Carbon Fiber', water: '200m' },
-    image: '/images/watch_sensual.png',
+    image: `${import.meta.env.BASE_URL}images/watch_sensual.png`,
     bgClass: 'bg-red-950',
     accentClass: 'text-red-400'
   }

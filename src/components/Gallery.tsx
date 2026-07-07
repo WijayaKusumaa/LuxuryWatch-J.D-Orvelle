@@ -7,11 +7,11 @@ import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 gsap.registerPlugin(ScrollTrigger);
 
 const galleryImages = [
-  { id: 1, src: '/images/gallery1.png', alt: 'Ocean Diver Masterpiece', caption: 'Deep sea reliability meets elegant design.' },
-  { id: 2, src: '/images/gallery2.png', alt: 'Rose Gold Elegance', caption: 'The ultimate statement in high fashion and luxury.' },
-  { id: 3, src: '/images/gallery3.png', alt: 'Tourbillon Precision', caption: 'Defying gravity with our proprietary tourbillon.' },
-  { id: 4, src: '/images/gallery4.png', alt: 'Diamond Encrusted', caption: 'Radiant brilliance for the highest echelons of society.' },
-  { id: 5, src: '/images/gallery5.png', alt: 'Vintage Chronograph', caption: 'Racing heritage captured in a timeless classic.' },
+  { id: 1, src: `${import.meta.env.BASE_URL}images/gallery1.png`, alt: 'Ocean Diver Masterpiece', caption: 'Deep sea reliability meets elegant design.' },
+  { id: 2, src: `${import.meta.env.BASE_URL}images/gallery2.png`, alt: 'Rose Gold Elegance', caption: 'The ultimate statement in high fashion and luxury.' },
+  { id: 3, src: `${import.meta.env.BASE_URL}images/gallery3.png`, alt: 'Tourbillon Precision', caption: 'Defying gravity with our proprietary tourbillon.' },
+  { id: 4, src: `${import.meta.env.BASE_URL}images/gallery4.png`, alt: 'Diamond Encrusted', caption: 'Radiant brilliance for the highest echelons of society.' },
+  { id: 5, src: `${import.meta.env.BASE_URL}images/gallery5.png`, alt: 'Vintage Chronograph', caption: 'Racing heritage captured in a timeless classic.' },
 ];
 
 export default function Gallery() {

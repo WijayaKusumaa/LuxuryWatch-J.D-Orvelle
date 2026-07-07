@@ -80,9 +80,9 @@ export default function Heritage() {
             className="w-full max-w-md h-[50vh] md:h-[70vh] relative overflow-hidden rounded-sm"
             style={{ clipPath: "inset(100% 0% 0% 0%)" }}
           >
-            <img 
+             <img 
               ref={imageRef}
-              src="/images/heritage.png" 
+              src={`${import.meta.env.BASE_URL}images/heritage.png`} 
               alt="J D'Orvelle Heritage" 
               className="absolute inset-0 w-full h-[120%] object-cover grayscale mix-blend-luminosity opacity-80 top-[-10%]"
             />
